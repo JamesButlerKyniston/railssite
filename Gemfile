@@ -9,11 +9,6 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-#Gem to allow injection of metatags.
-gem 'meta-tags'
-
-
-
 #Gems specificly used in the development and testing enviornments.
 group :development, :test do
   gem 'byebug'
