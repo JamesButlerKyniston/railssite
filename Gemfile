@@ -8,11 +8,18 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
+#Sqlite3 was removed as it is not compatable with heroku.
+
+
+#Heroku compatable sql based gem.
+gem 'pg'
+
+
+
 
 #Gems specificly used in the development and testing enviornments.
 group :development, :test do
   gem 'byebug'
-  gem 'sqlite3'
 end
 
 
